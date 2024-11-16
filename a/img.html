@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewprot" content="width=device-width initial-scale=1.0" />
+    <title>img태그</title>
+  </head>
+  <body>
+    <!--img태그만으로는 이미지를 삽입하기 어렵다, src라는 속성을 이용해서 파일경로를 넣어준다-->
+    <img src="./images/dd.jfif" alt="꽃" width="100" />
+    <!--alt속성은 이미지가 깨졌을때를 위한 대체 텍스트-->
+    <!--파일 경로 시작부분은 항상 해당 html 문서위치다
+    ./ 현재 폴더 
+    ../ 상위 폴더
+    .../ 상위 폴더의 상위 폴더-->
+    <p>img태그에는 src속성과 alt속성이 필수로 들어가야한다</p>
+    <p>
+      이미지의 사이즈를 width와 height 속성으로 조절하는데 <br />예를 들어
+      width만 사용하면 height도 자동으로 비율에 맞게 변한다 <br />이렇듯 한쪽만
+      변경하면 나머지 한쪽도 자동으로 변경해준다 <br />그리고 둘다 사용해서
+      변경하게 되면<br />원래 이미지의 비율이 망가질 수 있다
+    </p>
+    <p>단위는 쓰지않거나 %로 표시한다. %는 원래 사이즈의 %만큼 변경된다</p>
+    <p>여기까지 내부 리소스 이미지 방법이다</p>
+    <p>-----------------------------------------------</p>
+    <img
+      src="https://yt3.ggpht.com/xW_L8dfI1iFXdSihBJ-CxSHbBygzV30Uxia0R4ZGV_co3JLveYfESInwaiFZQWsk-YcgeGas=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj"
+      width="500"
+    />
+    <p>이렇게 외부에 있는 리소스를 가져올수있다</p>
+    <p>-----------------------------------------------</p>
+    <a href="https://google.com" target="_blank">
+      <img
+        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+      />
+    </a>
+    <p>
+      이렇게 a태그로 감싸게 되면 이미지를 눌렀을때 설정한 링크로 이동할수있게
+      된다
+    </p>
+  </body>
+</html>

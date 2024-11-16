@@ -1,0 +1,38 @@
+.a {
+  background: wheat;
+  text-align: center;
+}
+.b {
+  display: flex;
+  justify-content: center;
+}
+.c,
+.d,
+.e {
+  width: 500px;
+  height: 300px;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.f {
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+}
+.g,
+.h,
+.i {
+  background: yellowgreen;
+  font-size: 20px;
+}
+.j {
+  margin-top: 10%;
+  border: 2px solid dimgrey;
+  width: 600px;
+  height: 300px;
+  font-size: 60px;
+  margin: 0 auto;
+}
